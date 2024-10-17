@@ -4,13 +4,13 @@ import CoreConcepts from "./components/CoreConcepts";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <CoreConcepts />
         <Examples />
       </main>
-    </div>
+    </>
   );
 };
 
